@@ -76,7 +76,7 @@ SOFTWARE.*/
     padding-bottom: 5px;
     border-radius: 5px;
     left: 6px;
-    top: 165px;
+    margin-top: 2%;
     /*bottom: 5px;*/
 }
 
@@ -88,7 +88,7 @@ SOFTWARE.*/
 .popout-UKvsJt .avatarStatus-1g8f0K{
     position: relative !important;
     z-index: 10 !important;
-    top: 5px !important;
+    top: 225px !important;
     left: 215px !important;
     height: 25px !important;
     width: 25px !important;
