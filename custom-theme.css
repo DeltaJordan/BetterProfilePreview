@@ -1,0 +1,95 @@
+/*MIT License
+
+Copyright (c) 2017 Jordan Zeotni
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*/
+
+/* Profile Popout */
+
+.userPopout-4pfA0d .header-3mZJcV {
+    border-bottom:rgba(255,255,255,0.42) 2.7px solid!important;
+    background:none!important;
+    height: 256px !important;
+    display: inline-block !important;
+}
+
+.popout-UKvsJt {
+    visibility: visible !important;
+    z-index: -1 !important;
+    border-radius: 0px !important;
+    height: 256px !important;
+    width: 256px !important;
+    margin-left: -5%;
+    border: none !important;
+    -webkit-filter: brightness(80%) !important;
+    background-size: contain;
+    position: absolute;
+    background-position: center top;
+}
+
+.header-3mZJcV .avatarWrapper-2Gfmp1 {
+    height:100px!important;
+    width:245px!important;
+    z-index: 0 !important;
+}
+
+.userPopout-4pfA0d .body-3rkFrF {
+    z-index: 1 !important;
+}
+
+.avatarWrapper-2Gfmp1 .avatarHint-2i5XWK {
+    top: -5px !important;
+    left: -5px !important;
+    height: 245px !important;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0px !important;
+    margin-left: -5%;
+    vertical-align: top !important;
+    align-items: inherit !important;
+    padding-top: 15px;
+    font-family: "Segan" !important;
+}
+
+.header-3mZJcV .headerText-3tKBWq {
+    position: absolute;
+    z-index: 0;
+    display: block;
+    background: rgba(50, 50, 50, 0.8);
+    width: 85% !important;
+    padding: 5%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    left: 6px;
+    top: 165px;
+    /*bottom: 5px;*/
+}
+
+.header-3mZJcV .headerText-3tKBWq * {
+    vertical-align: bottom !important;
+    bottom: 5px !important;
+}
+
+.popout-UKvsJt .avatarStatus-1g8f0K{
+    position: relative !important;
+    z-index: 10 !important;
+    top: 5px !important;
+    left: 215px !important;
+    height: 25px !important;
+    width: 25px !important;
+}
