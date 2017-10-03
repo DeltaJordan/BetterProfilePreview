@@ -54,8 +54,9 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
 }
 
 .header-3mZJcV .avatarWrapper-2Gfmp1 {
-    height:100px!important;
-    width:245px!important;
+    top: 2px !important;
+    height: 100px !important;
+    width: 245px !important;
     z-index: 0 !important;
 }
 
@@ -64,14 +65,14 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
 }
 
 .avatarWrapper-2Gfmp1 .avatarHint-2i5XWK {
-    top: -5px !important;
+    top: -3px !important;
     left: -5px !important;
-    height: 245px !important;
+    height: 241px !important;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 0px !important;
     margin-left: -5%;
-    vertical-align: top !important;
-    align-items: inherit !important;
+    vertical-align: bottom !important;
+    align-items: flex-end !important;
     padding-top: 15px;
     font-family: "Segan" !important;
 }
@@ -93,6 +94,25 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
 .header-3mZJcV .headerText-3tKBWq * {
     vertical-align: bottom !important;
     bottom: 5px !important;
+}
+
+.header-3mZJcV .headerText-3tKBWq:hover {
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    cursor: default;
+}
+
+.header-3mZJcV .headerText-3tKBWq:hover *{
+    color: rgba(0, 0, 0, 0);
+    cursor: default;
+}
+
+.header-3mZJcV .headerText-3tKBWq:active {
+    background: rgba(50, 50, 50, 0.8);
+}
+
+.header-3mZJcV .headerText-3tKBWq:active * {
+    color: whitesmoke;
 }
 
 .popout-UKvsJt .avatarStatus-1g8f0K{
