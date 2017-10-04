@@ -74,7 +74,8 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
     vertical-align: bottom !important;
     align-items: flex-end !important;
     padding-top: 15px;
-    font-family: "Segan" !important;
+    font-size: 12px;
+    /*font-family: "Segan" !important;*/
 }
 
 .header-3mZJcV .headerText-3tKBWq {
@@ -105,6 +106,7 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
 .header-3mZJcV .headerText-3tKBWq:hover *{
     color: rgba(0, 0, 0, 0);
     cursor: default;
+    background: rgba(0, 0, 0, 0);
 }
 
 .header-3mZJcV .headerText-3tKBWq:active {
@@ -113,6 +115,16 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
 
 .header-3mZJcV .headerText-3tKBWq:active * {
     color: whitesmoke;
+}
+
+.header-3mZJcV .headerText-3tKBWq:active .headerBotTag-1I8GCn {
+    background: white;
+    color: #7289da;
+}
+
+.header-3mZJcV .headerBotTag-1I8GCn:active {
+    background: white;
+    color: #7289da;
 }
 
 .popout-UKvsJt .avatarStatus-1g8f0K{
